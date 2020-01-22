@@ -1,0 +1,6 @@
+.\src\modulo4.vhd
+.\src\parity_detect.vhd
+.\src\mux.vhd
+.\src\final.vhd
+.\synthesis\final.vhd
+.\IMPLEMENT\TIME_SIM.VHD

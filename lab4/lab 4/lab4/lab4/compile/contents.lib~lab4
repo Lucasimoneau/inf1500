@@ -1,0 +1,9 @@
+7
+~E 1 "./../src/final.vhd" 4 final
+~A 1 "./../src/final.vhd" 12 final
+~E 1 "./../src/modulo4.vhd" 4 modulo4
+~A 1 "./../src/modulo4.vhd" 11 modulo4
+~E 1 "./../src/mux.vhd" 5 mux
+~A 1 "./../src/mux.vhd" 14 mux
+~E 1 "./../src/parity_detect.vhd" 4 parity_detect
+~A 1 "./../src/parity_detect.vhd" 11 parity_detect

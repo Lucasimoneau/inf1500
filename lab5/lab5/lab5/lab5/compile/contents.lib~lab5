@@ -1,0 +1,11 @@
+18
+~E 1 "./../src/disp7seg.vhd" 14 disp7seg
+~A 1 "./../src/disp7seg.vhd" 23 arch1
+~E 1 "./../compile/final.vhd" 27 final
+~A 1 "./../compile/final.vhd" 44 final
+~E 1 "./../src/pulse_gen.vhd" 5 pulse_gen
+~A 1 "./../src/pulse_gen.vhd" 15 pulse_gen_arch
+~E 1 "./../src/TRAFFIC_LIGHT.vhd" 5 TRAFFIC_LIGHT
+~A 1 "./../src/TRAFFIC_LIGHT.vhd" 19 TRAFFIC_LIGHT_ARCH
+~E 1 "./../src/debounce.vhd" 5 VHDL_Code_Debounce
+~A 1 "./../src/debounce.vhd" 17 Behavioral

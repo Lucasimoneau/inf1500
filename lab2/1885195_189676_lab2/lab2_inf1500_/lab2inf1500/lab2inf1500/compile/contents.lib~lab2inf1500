@@ -1,0 +1,15 @@
+90
+~E 1 "./../compile/comparateur_6bits.vhd" 27 comparateur_6bits
+~A 1 "./../compile/comparateur_6bits.vhd" 35 comparateur_6bits
+~E 1 "./../compile/diviseur_par2.vhd" 27 diviseur_par2
+~A 1 "./../compile/diviseur_par2.vhd" 35 diviseur_par2
+~E 1 "./../compile/multiplex_1bit.vhd" 27 multiplex_1bit
+~A 1 "./../compile/multiplex_1bit.vhd" 38 multiplex_1bit
+~E 1 "./../compile/multiplex_6bits.vhd" 27 multiplex_6bits
+~A 1 "./../compile/smultiplex_6bits.vhd" 38 multiplex_6bits
+~E 1 "./../compile/one_bit_full_adder.vhd" 27 one_bit_full_adder
+~A 1 "./../compile/one_bit_full_adder.vhd" 37 one_bit_full_adder
+~E 1 "./../compile/six_bit_full_adder.vhd" 27 six_bit_full_adder
+~A 1 "./../compile/six_bit_full_adder.vhd" 38 six_bit_full_adder
+~E 1 "./../compile/systeme_final.vhd" 27 systeme_final
+~A 1 "./../compile/systeme_final.vhd" 39 systeme_final

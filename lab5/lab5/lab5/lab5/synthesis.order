@@ -1,0 +1,5 @@
+i<>.\src\final.bde
+i<>.\src\disp7seg.vhd
+i<>.\src\TRAFFIC_LIGHT.vhd
+i<>.\src\pulse_gen.vhd
+i<>.\src\debounce.vhd

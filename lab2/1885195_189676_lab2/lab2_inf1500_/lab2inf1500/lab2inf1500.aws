@@ -1,0 +1,12 @@
+[Version]
+Version=10.5
+[Designs]
+lab2inf1500=.\lab2inf1500\lab2inf1500.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+lab2inf1500=1

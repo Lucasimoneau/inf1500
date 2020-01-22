@@ -1,0 +1,9 @@
+.\src\systeme_final.bde
+.\src\one_bit_full_adder.bde
+.\src\six_bit_full_adder.bde
+.\src\smultiplex_6bits.bde
+.\src\diviseur_par2.bde
+.\src\comparateur_6bits.bde
+.\src\multiplex_1bit.bde
+.\synthesis\systeme_final.vhd
+.\IMPLEMENT\TIME_SIM.VHD

@@ -1,0 +1,10 @@
+.\src\s0.bde
+.\src\s1.bde
+.\src\s2.bde
+.\src\mux.bde
+.\src\secret.bde
+.\src\convertisseur.bde
+.\src\final.bde
+.\src\mux_4bits.bde
+.\synthesis\final.vhd
+.\IMPLEMENT\TIME_SIM.VHD

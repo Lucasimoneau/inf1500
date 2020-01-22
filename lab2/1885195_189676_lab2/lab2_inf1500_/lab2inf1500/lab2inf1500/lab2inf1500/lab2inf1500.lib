@@ -1,0 +1,101 @@
+timestamp=1540850105241
+
+[~A]
+ModifyID=90
+Version=74
+
+[comparateur_6bits]
+A/comparateur_6bits=24|.\..\src\comparateur_6bits.bde|10000|1*85012
+BinI32/comparateur_6bits=3*4088
+I=0*12581
+I/comparateur_6bits=0*63364
+M=11|0|vde|1540758284412|./../compile/comparateur_6bits.vhd|0*12073*0xc15abbbaadfe8a7c6b7f599a40c7c612152c1c0e|0*12476*0x23b75c12e3e89f2ef000564498faa8c2
+M/comparateur_6bits=21|0|vde|1540769059599|./../compile/comparateur_6bits.vhd|0*62856*0x042e0c69cf51cdad43fc63cb200e657dd571384b|0*63238*0x20116f55b147878295aeff36dce7fc50
+NSymbols/comparateur_6bits=40|0|2*6570
+R=./../compile/comparateur_6bits.vhd|27
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|cb299adb9c5b0b3e67b96435d9ae0456f92308fe60f79d7a922ff84a7d0e708c04377fbcf8bc0b15cae522d96f683be6
+Version/comparateur_6bits=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|cb299adb9c5b0b3e67b96435d9ae0456f92308fe60f79d7a922ff84a7d0e708c1cc4ec13d81692aa44ba7d5da6132489
+
+[diviseur_par2]
+A/diviseur_par2=24|.\..\src\diviseur_par2.bde|10000|1*20312
+BinI32/diviseur_par2=3*1960
+I=0*10727
+I/diviseur_par2=0*20976
+M=11|0|vde|1540758110733|./../compile/diviseur_par2.vhd|0*10257*0x8373dd62dd874f247e591a81b2729bdefede0b4b|0*10630*0x23b75c12e3e89f2ef000564498faa8c2
+M/diviseur_par2=21|0|vde|1540758858939|./../compile/diviseur_par2.vhd|0*20481*0xa9a28cebe23c49f7125003670f57fc53e1e30e80|0*20862*0x20116f55b147878295aeff36dce7fc50
+NSymbols/diviseur_par2=40|0|2*4951
+R=./../compile/diviseur_par2.vhd|27
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|0467864b73af4e301b5053e247093edfdfd99f4daf413adc9112a43a59114233055539b3cd3c64052b805e5a26c2533e
+Version/diviseur_par2=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|0467864b73af4e301b5053e247093edfdfd99f4daf413adc9112a43a591142331ffe70891587e6f1612c21d63b683fdd
+
+[multiplex_1bit]
+A/multiplex_1bit=24|.\..\src\multiplex_1bit.bde|10000|1*74363
+BinI32/multiplex_1bit=3*3738
+I=0*51900
+I/multiplex_1bit=0*56221
+M=11|0|vde|1540762445035|./../compile/multiplex_1bit.vhd|0*51367*0x9cb81c3a625a54704cc79475c0b0d2516620e877|0*51801*0x23b75c12e3e89f2ef000564498faa8c2
+M/multiplex_1bit=21|0|vde|1540763875116|./../compile/multiplex_1bit.vhd|0*55465*0xe94110a690371d51aeabe04ac01f16f327e4f20f|0*56104*0x20116f55b147878295aeff36dce7fc50
+NSymbols/multiplex_1bit=40|0|2*13467
+R=./../compile/multiplex_1bit.vhd|27
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|67f047b3c35e920bc891e2a7daedd6926bcdd6e3d2dbf1538af701e09697acbf74b853384e526b20488f115a2db73876
+Version/multiplex_1bit=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|67f047b3c35e920bc891e2a7daedd6926bcdd6e3d2dbf1538af701e09697acbf665b215aa24a2e16bdc68bbc8cd97911
+
+[multiplex_6bits]
+A/multiplex_6bits=24|.\..\src\smultiplex_6bits.bde|10000|1*75611
+I=0*8058
+I/multiplex_6bits=0*58019
+M=11|0|vde|1540758053280|./../compile/multiplex_6bits.vhd|0*7463*0xb691b523382f7862e51c681bbed685a2b1b532f0|0*7957*0x23b75c12e3e89f2ef000564498faa8c2
+M/multiplex_6bits=21|0|vde|1540763969071|./../compile/smultiplex_6bits.vhd|0*56549*0x3eb5c52949834b08009782b49ca90d7ce7128f13|0*57898*0x20116f55b147878295aeff36dce7fc50
+NSymbols/multiplex_6bits=40|0|2*10829
+R=./../compile/multiplex_6bits.vhd|27
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|e30a33a1a8876f9dbed95fdf047da991fcb4647eb4201679cd9058091b3194fa1470ff18aa30cc37806cfce501595381
+Version/multiplex_6bits=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|e30a33a1a8876f9dbed95fdf047da991fcb4647eb4201679cd9058091b3194fa01ee45cfa8502287e7a706499a2a95fe
+
+[one_bit_full_adder]
+A/one_bit_full_adder=24|.\..\src\one_bit_full_adder.bde|10000|1*32040
+BinI32/one_bit_full_adder=3*2877
+I=0*5640
+I/one_bit_full_adder=0*27663
+M=11|0|vde|1540757734035|./../compile/one_bit_full_adder.vhd|0*0*0xfb2e2d82ed0e11b6feb97705424da7ad43e8d1af|0*408*0x23b75c12e3e89f2ef000564498faa8c2
+M/one_bit_full_adder=21|0|vde|1540759582075|./../compile/one_bit_full_adder.vhd|0*27140*0x3a04642bb4d8fb76c05679cff662b407cc4880ce|0*27534*0x20116f55b147878295aeff36dce7fc50
+NSymbols/one_bit_full_adder=40|0|2*0
+R=./../compile/one_bit_full_adder.vhd|27
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|4d8b3341eb3f8a2b30e778f5a45d55ff82c6190d95f73769e102079f07fc35a4e019d390acfa1d5e801489578ab45407
+Version/one_bit_full_adder=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|4d8b3341eb3f8a2b30e778f5a45d55ff82c6190d95f73769e102079f07fc35a4988a72fe84c2e9513207c5bc564e9400
+
+[six_bit_full_adder]
+A/six_bit_full_adder=24|.\..\src\six_bit_full_adder.bde|10000|1*57096
+BinI32/six_bit_full_adder=3*3214
+I=0*6526
+I/six_bit_full_adder=0*43433
+M=11|0|vde|1540757801757|./../compile/six_bit_full_adder.vhd|0*1038*0x89cb6573b1f45c3217b67a37f9efe483e0304114|0*1507*0x23b75c12e3e89f2ef000564498faa8c2
+M/six_bit_full_adder=21|0|vde|1540760232963|./../compile/six_bit_full_adder.vhd|0*41775*0xb86daa229e976954cb540104b89091a79d3f78e0|0*43304*0x20116f55b147878295aeff36dce7fc50
+NSymbols/six_bit_full_adder=40|0|2*8207
+R=./../compile/six_bit_full_adder.vhd|27
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|c88102a7e8bef48081b9bafb358d2843fe0cfc55c3116ac87bc5e6fb5bbcc1e63c6200add16774eb7ccfe669eb47f9f7
+Version/six_bit_full_adder=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|c88102a7e8bef48081b9bafb358d2843fe0cfc55c3116ac87bc5e6fb5bbcc1e609135b34cfcc1e43b2e1babaeb7ddc51
+
+[systeme_final]
+A/systeme_final=24|.\..\src\systeme_final.bde|10000|1*86242
+I=0*60617
+I/systeme_final=0*65146
+M=11|0|vde|1540764022297|./../compile/systeme_final.vhd|0*60052*0xeb97cf2feee4995c5021236fbad72ea2cc7ac27c|0*60520*0x23b75c12e3e89f2ef000564498faa8c2
+M/systeme_final=21|0|vde|1540850105182|./../compile/systeme_final.vhd|0*63698*0x107f7f4b38f7b2f6cf739fa0adf91668ef345c67|0*65032*0x20116f55b147878295aeff36dce7fc50
+R=./../compile/systeme_final.vhd|27
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|9dbcea6ad5701dba1865750b126887e8f91b1130c677bf9c49929701cf4145e7d48c1c3fa798a33eef75cf52e4d27b83
+Version/systeme_final=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|9dbcea6ad5701dba1865750b126887e8f91b1130c677bf9c49929701cf4145e77260b7f75ede16452e52eb05686ead25
+
+[~MFT]
+0=8|0lab2inf1500.mgf|65146|28355
+1=2|1lab2inf1500.mgf|86242|39886
+2=0|2lab2inf1500.mgf|13467|2586
+3=0|3lab2inf1500.mgf|4088|2481
+
+[~U]
+comparateur_6bits=11|0*11860||0x3
+diviseur_par2=11|0*10048||0x3
+multiplex_1bit=11|0*51140||0x3
+multiplex_6bits=11|0*7221||0x3
+one_bit_full_adder=11|0*5429||0x3
+six_bit_full_adder=11|0*6293||0x3
+systeme_final=11|0*59828|

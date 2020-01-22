@@ -1,0 +1,7 @@
+.\src\debounce.vhd
+.\src\pulse_gen.vhd
+.\src\TRAFFIC_LIGHT.vhd
+.\src\disp7seg.vhd
+.\src\final.bde
+.\synthesis\final.vhd
+.\IMPLEMENT\TIME_SIM.VHD

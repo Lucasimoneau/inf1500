@@ -1,0 +1,7 @@
+vhdl lab2inf1500 "..\compile\systeme_final.vhd"
+vhdl lab2inf1500 "..\compile\six_bit_full_adder.vhd"
+vhdl lab2inf1500 "..\compile\smultiplex_6bits.vhd"
+vhdl lab2inf1500 "..\compile\one_bit_full_adder.vhd"
+vhdl lab2inf1500 "..\compile\diviseur_par2.vhd"
+vhdl lab2inf1500 "..\compile\comparateur_6bits.vhd"
+vhdl lab2inf1500 "..\compile\multiplex_1bit.vhd"

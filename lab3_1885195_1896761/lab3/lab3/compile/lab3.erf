@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: .\..\compile\mux.vhd" 
+MESSAGE "Compile Entity "mux"" 
+MESSAGE "Compile Architecture "mux" of Entity "mux"" 
+MESSAGE "File: .\..\compile\final.vhd" 
+MESSAGE "Compile Entity "final"" 
+MESSAGE "Compile Architecture "final" of Entity "final"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

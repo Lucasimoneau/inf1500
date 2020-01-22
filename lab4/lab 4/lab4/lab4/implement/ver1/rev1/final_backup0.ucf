@@ -1,0 +1,12 @@
+# sorties 
+net "S(0)" loc = "H17" | IOSTANDARD=LVCMOS33; # DEL 0
+net "S(1)" loc = "K15" | IOSTANDARD=LVCMOS33; # DEL 0
+
+
+
+# entr´ees 
+net "A(0)" LOC = "J15" | IOSTANDARD=LVCMOS33; # interrupteur 0 
+net "A(1)" LOC = "L16" | IOSTANDARD=LVCMOS33; # interrupteur 0
+net "A(2)" LOC = "M13" | IOSTANDARD=LVCMOS33; # interrupteur 0 
+net "A(3)" LOC = "R15" | IOSTANDARD=LVCMOS33; # interrupteur 0 
+net "r0" LOC = "V10" | IOSTANDARD=LVCMOS33; # interrupteur 1 

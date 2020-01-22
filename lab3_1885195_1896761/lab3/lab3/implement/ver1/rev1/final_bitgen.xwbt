@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\inf1500\lab3\lab3\lab3\implement\ver1\rev1\final.ncd
+OUTFILE=E:\inf1500\lab3\lab3\lab3\implement\ver1\rev1\final.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=E:\inf1500\lab3\lab3\lab3\implement\ver1\rev1
+LICENSE=ISE
+USER_INFO=207285910_1777485732_210684607_121

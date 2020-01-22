@@ -1,0 +1,55 @@
+set -tmpdir .
+set -xsthdpdir "X:\Bureau\lab2_inf1500_\lab2inf1500\lab2inf1500\synthesis\xst"
+run
+-ifn systeme_final.prj
+-ifmt mixed
+-ofn systeme_final
+-ofmt NGC
+-p xc7a100tcsg324-1
+-top systeme_final
+-opt_mode Speed
+-opt_level 1
+-power NO
+-iuc NO
+-glob_opt AllClockNets
+-rtlview Yes
+-write_timing_constraints NO
+-keep_hierarchy No
+-netlist_hierarchy As_Optimized
+-hierarchy_separator /
+-bus_delimiter <>
+-case Maintain
+-cross_clock_analysis NO
+-slice_utilization_ratio 100
+-bram_utilization_ratio 100
+-dsp_utilization_ratio 100
+-read_cores YES
+-generics {  }
+-define {  }
+-fsm_extract YES -fsm_encoding Auto
+-resource_sharing YES
+-fsm_style LUT
+-ram_extract YES
+-ram_style Auto
+-rom_extract YES
+-rom_style Auto
+-auto_bram_packing NO
+-shreg_extract YES
+-shreg_min_size 2
+-use_dsp48 Auto
+-async_to_sync NO
+-iobuf YES
+-max_fanout 100000
+-bufg 32
+-register_duplication YES
+-equivalent_register_removal YES
+-register_balancing No
+-iob Auto
+-lc Auto
+-reduce_control_sets Auto
+-optimize_primitives NO
+-safe_implementation NO
+-use_clock_enable Auto
+-use_sync_set Auto
+-use_sync_reset Auto
+-slice_utilization_ratio_maxmargin 5

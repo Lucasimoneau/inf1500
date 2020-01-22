@@ -1,0 +1,4 @@
+vhdl lab4 "..\src\modulo4.vhd"
+vhdl lab4 "..\src\parity_detect.vhd"
+vhdl lab4 "..\src\mux.vhd"
+vhdl lab4 "..\src\final.vhd"

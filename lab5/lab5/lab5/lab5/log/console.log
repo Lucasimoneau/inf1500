@@ -1,0 +1,84 @@
+# Design: Design lab5 already active.
+# 
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Xilinx ISE/WebPack 14.6/14.7 XST VHDL/Verilog
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Xilinx ISE/WebPack 14.6/14.7
+acom -reorder -O3 -e 100 -work lab5 -2002  $dsn/src/debounce.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: E:\inf1500\lab5\lab5\lab5\lab5\src\debounce.vhd
+# Compile Entity "VHDL_Code_Debounce"
+# Compile Architecture "Behavioral" of Entity "VHDL_Code_Debounce"
+# Top-level unit(s) detected:
+# Entity => VHDL_Code_Debounce
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work lab5 -2002  $dsn/src/pulse_gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: E:\inf1500\lab5\lab5\lab5\lab5\src\pulse_gen.vhd
+# Compile Entity "pulse_gen"
+# Compile Architecture "pulse_gen_arch" of Entity "pulse_gen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work lab5 -2002  $dsn/src/TRAFFIC_LIGHT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: E:\inf1500\lab5\lab5\lab5\lab5\src\TRAFFIC_LIGHT.vhd
+# Compile Entity "TRAFFIC_LIGHT"
+# Compile Architecture "TRAFFIC_LIGHT_ARCH" of Entity "TRAFFIC_LIGHT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work lab5 -2002  $dsn/src/disp7seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: E:\inf1500\lab5\lab5\lab5\lab5\src\disp7seg.vhd
+# Compile Entity "disp7seg"
+# Compile Architecture "arch1" of Entity "disp7seg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work lab5 -2002  $dsn/src/final.bde
+# DRC: Checking file 'E:\inf1500\lab5\lab5\lab5\lab5\src\final.bde'.
+# DRC: final.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 3 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\inf1500\lab5\lab5\lab5\lab5\compile\final.vhd from E:\inf1500\lab5\lab5\lab5\lab5\src\final.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\..\compile\final.vhd
+# Compile Entity "final"
+# Compile Architecture "final" of Entity "final"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 32 warning(s)
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# Implementation has been started.
+# Implementation ver1->rev1: 0 error(s), 11 warning(s).
+# Warning: Implementation ended with warning(s).
+# Setting simulation top-level to 'final' for timing simulation options.
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# Implementation has been started.
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# Implementation has been started.
+# Implementation ver1->rev1: 0 error(s), 0 warning(s).
+# Implementation ended successfully.
+acom -O3 -e 100 -work lab5 -2002  $dsn/src/TRAFFIC_LIGHT.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: E:\inf1500\lab5\lab5\lab5\lab5\src\TRAFFIC_LIGHT.vhd
+# Compile Entity "TRAFFIC_LIGHT"
+# Compile Architecture "TRAFFIC_LIGHT_ARCH" of Entity "TRAFFIC_LIGHT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work lab5 -2002  $dsn/src/final.bde
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\..\compile\final.vhd
+# Compile Entity "final"
+# Compile Architecture "final" of Entity "final"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 32 warning(s)
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# File "E:\inf1500\lab5\lab5\lab5\lab5\synthesis\final.ngc" has been modified after last implementation run.
+# Implementation has been started.
+# Implementation ver1->rev1: 0 error(s), 0 warning(s).
+# Implementation ended successfully.

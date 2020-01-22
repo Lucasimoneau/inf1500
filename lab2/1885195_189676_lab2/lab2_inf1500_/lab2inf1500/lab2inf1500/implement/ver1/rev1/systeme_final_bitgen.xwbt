@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=X:\Bureau\lab2_inf1500_\lab2inf1500\lab2inf1500\implement\ver1\rev1\systeme_final.ncd
+OUTFILE=X:\Bureau\lab2_inf1500_\lab2inf1500\lab2inf1500\implement\ver1\rev1\systeme_final.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=X:\Bureau\lab2_inf1500_\lab2inf1500\lab2inf1500\implement\ver1\rev1
+LICENSE=ISE
+USER_INFO=207285910_1777485732_210684607_121

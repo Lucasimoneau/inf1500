@@ -1,0 +1,1 @@
+-w -erf E:/inf1500/lab3/lab3/lab3/compile/lab3.erf -d E:/inf1500/lab3/lab3/lab3/compile -s E:/inf1500/lab3/lab3/library.cfg -j E:/inf1500/lab3/lab3/lab3/projlib.cfg -work lab3 -O3 -e 100 -work lab3 -2002 ./../compile/mux.vhd ./../compile/final.vhd 

@@ -1,0 +1,36 @@
+Active-HDL 10.5.216.6767 2018-11-05 14:18:31
+
+Elaboration top modules:
+Architecture                  systeme_final(systeme_final)
+
+
+-------------------------------------------------------------------------------------------------------------
+Entity             | Architecture       | Library     | Info | Compiler Version        | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+systeme_final      | systeme_final      | lab2inf1500 |      | 10.5.216.6767 (Windows) | -O3
+comparateur_6bits  | comparateur_6bits  | lab2inf1500 |      | 10.5.216.6767 (Windows) | -O3
+six_bit_full_adder | six_bit_full_adder | lab2inf1500 |      | 10.5.216.6767 (Windows) | -O3
+multiplex_6bits    | multiplex_6bits    | lab2inf1500 |      | 10.5.216.6767 (Windows) | -O3
+diviseur_par2      | diviseur_par2      | lab2inf1500 |      | 10.5.216.6767 (Windows) | -O3
+one_bit_full_adder | one_bit_full_adder | lab2inf1500 |      | 10.5.216.6767 (Windows) | -O3
+multiplex_1bit     | multiplex_1bit     | lab2inf1500 |      | 10.5.216.6767 (Windows) | -O3
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+VHDL Package                            | Library     | Info | Compiler Version        | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+standard                                | std         |      |                         | <unavailable>
+TEXTIO                                  | std         |      |                         | <unavailable>
+std_logic_1164                          | ieee        |      |                         | <unavailable>
+std_logic_arith                         | ieee        |      |                         | <unavailable>
+STD_LOGIC_SIGNED                        | ieee        |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED                      | ieee        |      |                         | <unavailable>
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+Library                                 | Comment
+-------------------------------------------------------------------------------------------------------------
+ieee                                    | Standard IEEE packages library
+lab2inf1500                             | None
+std                                     | Standard VHDL library
+-------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,1 @@
+-w -erf E:/inf1500/lab5/lab5/lab5/lab5/compile/lab5.erf -d E:/inf1500/lab5/lab5/lab5/lab5/compile -s E:/inf1500/lab5/lab5/lab5/library.cfg -j E:/inf1500/lab5/lab5/lab5/lab5/projlib.cfg -work lab5 -O3 -e 100 -work lab5 -2002 ./../compile/final.vhd 

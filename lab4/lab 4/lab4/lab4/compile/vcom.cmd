@@ -1,0 +1,1 @@
+-w -erf "H:/inf1500/lab4/lab 4/lab4/lab4/compile/lab4.erf" -d "H:/inf1500/lab4/lab 4/lab4/lab4/compile" -s "H:/inf1500/lab4/lab 4/lab4/library.cfg" -j "H:/inf1500/lab4/lab 4/lab4/lab4/projlib.cfg" -work lab4 -O3 -e 100 -work lab4 -2002 "H:/inf1500/lab4/lab 4/lab4/lab4/src/final.vhd" 

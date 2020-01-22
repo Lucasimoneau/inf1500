@@ -1,0 +1,77 @@
+timestamp=1543537882065
+
+[~A]
+ModifyID=18
+Version=74
+
+[disp7seg]
+A/arch1=21|./../src/disp7seg.vhd|23|1*3848
+BinI32/arch1=3*1839
+I=0*7603
+I/arch1=0*9241
+M=11|0|vde|1543536052987|./../src/disp7seg.vhd|0*7123*0x87530f714548624a240b97904d292dba063d5b4e|0*7520*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch1=21|0|vde|1543536052998|./../src/disp7seg.vhd|0*7844*0x3ca85691d2928f43bf4afe8d9fb3355bb2404ca5|0*9149*0x20116f55b147878295aeff36dce7fc50
+NSymbols/disp7seg=40|0|2*0
+R=./../src/disp7seg.vhd|14
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|0fad045fdeae19b6e184637adadc274711509bd0ab67e8f7f285dea6f1275daba27b4e609fd46ce65824595111414aaf
+Version/arch1=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|0aa033932cfccc33659e96f45c5027937257d3e1f4e544ac5ae36b1c9fff27c6
+
+[final]
+A/final=24|.\..\src\final.bde|10000|1*14685
+I=0*10313
+I/final=0*18756
+M=11|0|vde|1543536553112|./../compile/final.vhd|0*9715*0x23eba989fb7e8e11f8a8191412b24b2c3c07c007|0*10232*0x23b75c12e3e89f2ef000564498faa8c2
+M/final=21|0|vde|1543537882021|./../compile/final.vhd|0*16277*0xb5c16ee5bee0e4339b2147aa087d8845e572aa1a|0*18666*0x20116f55b147878295aeff36dce7fc50
+R=./../compile/final.vhd|27
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|9bdf90b2e1f5d730f9348390f5d9875c30f6b989451e359269110e7dc1c6e24c
+Version/final=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|9bdf90b2e1f5d730f9348390f5d9875c25b6fa64610b80ed1d5926ad80f39ee0
+
+[pulse_gen]
+A/pulse_gen_arch=21|./../src/pulse_gen.vhd|15|1*967
+BinI32/pulse_gen_arch=3*425
+I=0*2005
+I/pulse_gen_arch=0*2739
+M=11|0|vde|1543535955834|./../src/pulse_gen.vhd|0*1634*0x42d66055d2adae64af624ad04b22765263709cc7|0*1920*0x23b75c12e3e89f2ef000564498faa8c2
+M/pulse_gen_arch=21|0|vde|1543535955864|./../src/pulse_gen.vhd|0*2247*0xd01792ee99d08049612b5626e70d74eb9a58e072|0*2636*0x20116f55b147878295aeff36dce7fc50
+NSymbols/pulse_gen=40|0|2*6613
+R=./../src/pulse_gen.vhd|5
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|a872399995d2c24f43305f46a2891d7267fd4c78e6b5277c917925d777dc5793c744acdbb1f3d9dfd52c6fc33890fbe8
+Version/pulse_gen_arch=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|1ce367d6e642fe75e80a0f1bfe861e9ac9bf66676f11f94b09b1325da5e93a65a9a206afeb7936b4c68ab9fad6e5abab
+
+[traffic_light]
+A/traffic_light_arch=A/TRAFFIC_LIGHT_ARCH 21|./../src/TRAFFIC_LIGHT.vhd|19|1*12700
+BinI32/traffic_light_arch=3*3149
+I=0*3898
+I/traffic_light_arch=I/TRAFFIC_LIGHT_ARCH 0*16012
+M=11|0|vde|1543536013505|./../src/TRAFFIC_LIGHT.vhd|0*3238*0x44be8c51ef7807422aa31fd34894802a7d7cdb3f|0*3805*0x23b75c12e3e89f2ef000564498faa8c2
+M/traffic_light_arch=M/TRAFFIC_LIGHT_ARCH 21|0|vde|1543537878495|./../src/TRAFFIC_LIGHT.vhd|0*13557*0xe917bb7894a8d6c82af4d908a03b52da114a9871|0*15897*0x20116f55b147878295aeff36dce7fc50
+NSymbols/traffic_light=NSymbols/TRAFFIC_LIGHT 40|0|2*8520
+R=./../src/TRAFFIC_LIGHT.vhd|5
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|632dafd93e42036f24947de725b4b1cec17a4b5867b96b26125861c47f6cc795a260faace0176a898be25e1eb68a0109
+Version/traffic_light_arch=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|632dafd93e42036f24947de725b4b1ce75640bbdc0d874b996bb9606eb3547faee4ae5f521a421f0bfd4d5b551d556dd
+
+[vhdl_code_debounce]
+A/behavioral=A/Behavioral 21|./../src/debounce.vhd|17|1*0
+BinI32/behavioral=3*0
+I=0*566
+I/behavioral=I/Behavioral 0*1214
+M=11|0|vde|1543535899432|./../src/debounce.vhd|0*207*0x0ddfa4c9ccdf0b2008b3c1cd3c5bc30489b83e7d|0*473*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|0|vde|1543535899444|./../src/debounce.vhd|0*778*0x96a79c2beae36649a8fe50445c517022cc0a668a|0*1107*0x20116f55b147878295aeff36dce7fc50
+NSymbols/vhdl_code_debounce=NSymbols/VHDL_Code_Debounce 40|0|2*12859
+R=./../src/debounce.vhd|5
+Version=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|b643da0b39ec23a56a464e86803c559b4a185b3707c12d3ce40708f805695707122627df1fc8eec1ca8656cc2e0c9d57
+Version/behavioral=10.5.216.6767 (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff41fbf88898f5d83f279d92a0303897071
+
+[~MFT]
+0=8|0lab5.mgf|18756|5660
+1=2|1lab5.mgf|14685|7047
+2=0|2lab5.mgf|12859|0
+3=0|3lab5.mgf|3149|907
+
+[~U]
+disp7seg=11|0*6864||0x3
+final=11|0*9488|
+pulse_gen=11|0*1437||0x3
+traffic_light=TRAFFIC_LIGHT 11|0*2996||0x3
+vhdl_code_debounce=VHDL_Code_Debounce 11|0*0||0x3
+

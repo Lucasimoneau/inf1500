@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: .\..\compile\systeme_final.vhd" 
+MESSAGE "Compile Entity "systeme_final"" 
+MESSAGE "Compile Architecture "systeme_final" of Entity "systeme_final"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

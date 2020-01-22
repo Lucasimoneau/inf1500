@@ -1,0 +1,322 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to H:\inf1500\lab4\lab 4\lab4\lab4\synthesis\xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "final.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "final"
+Output Format                      : NGC
+Target Device                      : xc7a100tcsg324-1
+
+---- Source Options
+Top Module Name                    : final
+Generics, Parameters               : {  }
+Verilog Macros                     : {  }
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Resource Sharing                   : YES
+FSM Style                          : LUT
+RAM Extraction                     : YES
+RAM Style                          : Auto
+ROM Extraction                     : YES
+ROM Style                          : Auto
+Shift Register Extraction          : YES
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Asynchronous To Synchronous        : NO
+Automatic Register Balancing       : No
+Safe Implementation                : NO
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Pack IO Registers into IOBs        : Auto
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Cross Clock Analysis               : NO
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Read Cores                         : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "H:\inf1500\lab4\lab 4\lab4\lab4\src\modulo4.vhd" into library lab4
+Parsing entity <modulo4>.
+Parsing architecture <modulo4> of entity <modulo4>.
+Parsing VHDL file "H:\inf1500\lab4\lab 4\lab4\lab4\src\parity_detect.vhd" into library lab4
+Parsing entity <parity_detect>.
+Parsing architecture <parity_detect> of entity <parity_detect>.
+Parsing VHDL file "H:\inf1500\lab4\lab 4\lab4\lab4\src\mux.vhd" into library lab4
+Parsing entity <mux>.
+Parsing architecture <mux> of entity <mux>.
+Parsing VHDL file "H:\inf1500\lab4\lab 4\lab4\lab4\src\final.vhd" into library lab4
+Parsing entity <final>.
+Parsing architecture <final> of entity <final>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <final> (architecture <final>) from library <lab4>.
+
+Elaborating entity <modulo4> (architecture <modulo4>) from library <lab4>.
+
+Elaborating entity <parity_detect> (architecture <parity_detect>) from library <lab4>.
+
+Elaborating entity <mux> (architecture <mux>) from library <lab4>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <final>.
+    Related source file is "H:\inf1500\lab4\lab 4\lab4\lab4\src\final.vhd".
+    Summary:
+	no macro.
+Unit <final> synthesized.
+
+Synthesizing Unit <modulo4>.
+    Related source file is "H:\inf1500\lab4\lab 4\lab4\lab4\src\modulo4.vhd".
+WARNING:Xst:647 - Input <e<3:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <modulo4> synthesized.
+
+Synthesizing Unit <parity_detect>.
+    Related source file is "H:\inf1500\lab4\lab 4\lab4\lab4\src\parity_detect.vhd".
+    Summary:
+	no macro.
+Unit <parity_detect> synthesized.
+
+Synthesizing Unit <mux>.
+    Related source file is "H:\inf1500\lab4\lab 4\lab4\lab4\src\mux.vhd".
+    Summary:
+	no macro.
+Unit <mux> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <final> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block final, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : final.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2
+#      LUT2                        : 1
+#      LUT5                        : 1
+# IO Buffers                       : 7
+#      IBUF                        : 5
+#      OBUF                        : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                    2  out of  63400     0%  
+    Number used as Logic:                 2  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      2
+   Number with an unused Flip Flop:       2  out of      2   100%  
+   Number with an unused LUT:             0  out of      2     0%  
+   Number of fully used LUT-FF pairs:     0  out of      2     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           7
+ Number of bonded IOBs:                   7  out of    210     3%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 1.443ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 7 / 2
+-------------------------------------------------------------------------
+Delay:               1.443ns (Levels of Logic = 3)
+  Source:            A<0> (PAD)
+  Destination:       F<0> (PAD)
+
+  Data Path: A<0> to F<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.001   0.919  A_0_IBUF (A_0_IBUF)
+     LUT5:I0->O            1   0.124   0.399  F<0>1 (F_0_OBUF)
+     OBUF:I->O                 0.000          F_0_OBUF (F<0>)
+    ----------------------------------------
+    Total                      1.443ns (0.125ns logic, 1.318ns route)
+                                       (8.7% logic, 91.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.99 secs
+ 
+--> 
+
+Total memory usage is 311604 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

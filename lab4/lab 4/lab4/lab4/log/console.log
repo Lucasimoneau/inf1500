@@ -1,0 +1,78 @@
+# Design: Design lab4 already active.
+# 
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Xilinx ISE/WebPack 14.6/14.7 XST VHDL/Verilog
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Xilinx ISE/WebPack 14.6/14.7
+acom -reorder -O3 -e 100 -work lab4 -2002  $dsn/src/modulo4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:\inf1500\lab4\lab 4\lab4\lab4\src\modulo4.vhd
+# Compile Entity "modulo4"
+# Compile Architecture "modulo4" of Entity "modulo4"
+# Top-level unit(s) detected:
+# Entity => modulo4
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work lab4 -2002  $dsn/src/modulo4.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:\inf1500\lab4\lab 4\lab4\lab4\src\modulo4.vhd
+# Compile Entity "modulo4"
+# Compile Architecture "modulo4" of Entity "modulo4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work lab4 -2002  $dsn/src/parity_detect.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:\inf1500\lab4\lab 4\lab4\lab4\src\parity_detect.vhd
+# Compile Entity "parity_detect"
+# Compile Architecture "parity_detect" of Entity "parity_detect"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work lab4 -2002  $dsn/src/mux.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:\inf1500\lab4\lab 4\lab4\lab4\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work lab4 -2002  $dsn/src/final.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:\inf1500\lab4\lab 4\lab4\lab4\src\final.vhd
+# Compile Entity "final"
+# Compile Architecture "final" of Entity "final"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 1 warning(s)
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# Implementation has been started.
+# Error: File 'H:/inf1500/lab4/lab 4/lab4/lab4/implement/ver1/rev1/final.ngd' does not exist.
+# Implementation ver1->rev1: 4 error(s), 2 warning(s).
+# Error: Implementation ended with error(s).
+# Error: No simulation netlist was produced.
+open -txt "H:\inf1500\lab4\lab 4\lab4\lab4\implement\ver1\rev1\final.bld"
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# Implementation has been started.
+# Implementation ver1->rev1: 0 error(s), 0 warning(s).
+# Implementation ended successfully.
+# Setting simulation top-level to 'final' for timing simulation options.
+acom -O3 -e 100 -work lab4 -2002  $dsn/src/parity_detect.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:\inf1500\lab4\lab 4\lab4\lab4\src\parity_detect.vhd
+# Compile Entity "parity_detect"
+# Compile Architecture "parity_detect" of Entity "parity_detect"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work lab4 -2002  $dsn/src/final.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: H:\inf1500\lab4\lab 4\lab4\lab4\src\final.vhd
+# Compile Entity "final"
+# Compile Architecture "final" of Entity "final"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 1 warning(s)
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# File "H:\inf1500\lab4\lab 4\lab4\lab4\synthesis\final.ngc" has been modified after last implementation run.
+# Implementation has been started.
+# Implementation ver1->rev1: 0 error(s), 0 warning(s).
+# Implementation ended successfully.

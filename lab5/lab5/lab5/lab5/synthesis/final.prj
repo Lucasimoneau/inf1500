@@ -1,0 +1,5 @@
+vhdl lab5 "..\compile\final.vhd"
+vhdl lab5 "..\src\disp7seg.vhd"
+vhdl lab5 "..\src\TRAFFIC_LIGHT.vhd"
+vhdl lab5 "..\src\pulse_gen.vhd"
+vhdl lab5 "..\src\debounce.vhd"

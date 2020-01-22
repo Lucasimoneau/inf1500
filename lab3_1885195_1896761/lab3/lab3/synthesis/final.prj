@@ -1,0 +1,8 @@
+vhdl lab3 "..\compile\final.vhd"
+vhdl lab3 "..\compile\convertisseur.vhd"
+vhdl lab3 "..\compile\secret.vhd"
+vhdl lab3 "..\compile\s0.vhd"
+vhdl lab3 "..\compile\s1.vhd"
+vhdl lab3 "..\compile\s2.vhd"
+vhdl lab3 "..\compile\mux_4bits.vhd"
+vhdl lab3 "..\compile\mux.vhd"
